@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #d0eeff;
+  --background: #fefbff;
   --foreground: #171717;
-  --bar-light: #0082df;
+  --bar-light: #a4c7d3;
 }
 
 @theme inline {
@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ededed;
+    --background: #fefbff;
     --foreground: #ededed;
   }
 }
@@ -28,4 +28,5 @@ body {
 
 .navi-bar {
     background: var(--bar-light);
+    height: 70px;
 }
