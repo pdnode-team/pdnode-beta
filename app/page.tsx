@@ -15,7 +15,9 @@ export default function Home() {
       </Head>
       <title>PdNode Beta</title>
       <div className={"navi-bar"}>
-        <Button sx={{background:"#a4c7d3"}}><Image alt={"PD Node Beta Icon"} src={"/pdnode-beta-icon1.png"} width={200} height={200}/></Button>
+        <Button sx={{background:"#a4c7d3"}}>
+          <Image alt={"PD Node Beta Icon"} src={"/pdnode-beta-icon1.png"} width={200} height={200}/>
+        </Button>
       </div>
     </React.Fragment>
   );
