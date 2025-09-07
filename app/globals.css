@@ -3,6 +3,7 @@
 :root {
   --background: #d0eeff;
   --foreground: #171717;
+  --bar-light: #0082df;
 }
 
 @theme inline {
@@ -23,4 +24,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navi-bar {
+    background: var(--bar-light);
 }

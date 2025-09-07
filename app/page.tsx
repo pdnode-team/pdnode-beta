@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <title>PdNode Beta</title>
-      <div>
+      <div className={"navi-bar"}>
           <a>1</a>
       </div>
     </React.Fragment>
