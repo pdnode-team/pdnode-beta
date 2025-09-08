@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PdNode Beta",
+  title: "PdNode Beta - All beta projects are in here",
   description: "A Beta Site for PdNode Projects.",
 };
 

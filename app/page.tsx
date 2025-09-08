@@ -12,10 +12,10 @@ export default function Home() {
       <Head>
         <link rel="icon" sizes={"128x128"} href="/public/favicon.ico" />
       </Head>
-      <title>PdNode Beta</title>
+      <title>PdNode Beta - All beta projects are in here</title>
       <div className={"navi-bar"}>
-        <Button sx={{background:"#a4c7d3", marginLeft:"13px", marginTop:"13px", borderRadius:"16px", height:"63px", width:"200px"}}>
-          <Image alt={"PD Node Beta Icon"} src={"/pdnode-beta-icon1.png"} width={160} height={160}/>
+        <Button href={"/"} sx={{background:"#a4c7d3", marginLeft:"13px", marginTop:"13px", borderRadius:"16px", height:"63px", width:"200px"}}>
+          <Image alt={"PD Node Beta Icon"} src={"/pdnode-beta-icon-light.png"} width={160} height={160}/>
         </Button>
       </div>
     </React.Fragment>
