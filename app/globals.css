@@ -27,6 +27,15 @@ body {
 }
 
 .navi-bar {
-    background: var(--bar-light);
-    height: 90px;
+  background: var(--bar-light);
+  height: 90px;
 }
+
+/*
+.logo-button {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+*/
+
