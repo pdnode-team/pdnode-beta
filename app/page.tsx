@@ -52,7 +52,7 @@ export default function Home() {
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
                 <Button href="/about" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><InfoIcon sx={{color:"rgb(108,108,108)"}}/></Button>
-                <Link href="/about" sx={{textDecoration:"none"}}>
+                <Link href="/abou" sx={{textDecoration:"none"}}>
                   <Typography sx={{color:"rgb(108 108 108)", fontSize:"0.85rem", fontWeight:"500"}}>About Us</Typography>
                 </Link>
               </Stack>
