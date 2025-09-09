@@ -11,6 +11,7 @@ import Tooltip from '@mui/material/Tooltip';
 
 import AppsRoundedIcon from '@mui/icons-material/AppsRounded';
 import { IoLogoGithub } from "react-icons/io";
+import LanguageIcon from '@mui/icons-material/Language';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 
@@ -30,6 +31,7 @@ export default function Home() {
         <link rel="icon" sizes={"128x128"} href="/favicon.ico" />
       </Head>
       <title>PdNode Beta - All our beta projects are here</title>
+      <div>
         <Stack direction={"row"} spacing={5} className={"navi-bar"}>
           <div>
             <Button href="/" sx={{background:"rgb(142 77 47)", marginLeft:"13px", marginTop:"13px", borderRadius:"16px", height:"63px", width:"200px"}}>
@@ -52,20 +54,27 @@ export default function Home() {
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
                 <Button href="/about" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><InfoIcon sx={{color:"rgb(108,108,108)"}}/></Button>
-                <Link href="/abou" sx={{textDecoration:"none"}}>
+                <Link href="/about" sx={{textDecoration:"none"}}>
                   <Typography sx={{color:"rgb(108 108 108)", fontSize:"0.85rem", fontWeight:"500"}}>About Us</Typography>
                 </Link>
               </Stack>
             </Stack>
           </div>
-          <div>
-            <Stack sx={{alignItems:"center", justifyItems:"center", marginRight:"0px"}}>
-              <Tooltip title="Visit our GitHub">
-                <IconButton href="https://github.com/pdnode-team" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px"}}><IoLogoGithub style={{color:"rgb(108,108,108)", fontSize:"2rem"}}/></IconButton>
+          <div style={{width:"1006px"}}></div>
+          <Stack spacing={1.7} direction={"row"}>
+            <Stack sx={{justifyItems:"center", alignItems:"center", justifyContent:"center"}}>
+              <Tooltip title="Visit Main Website">
+                <IconButton href="https://www.pdnode.com" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><LanguageIcon sx={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
               </Tooltip>
             </Stack>
-          </div>
+            <Stack sx={{justifyItems:"center", alignItems:"center", justifyContent:"center"}}>
+              <Tooltip title="Visit our GitHub">
+                <IconButton href="https://github.com/pdnode-team" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><IoLogoGithub style={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
+              </Tooltip>
+            </Stack>
+          </Stack>
         </Stack>
+      </div>
     </React.Fragment>
   );
 }
