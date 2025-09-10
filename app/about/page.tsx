@@ -75,6 +75,9 @@ export default function Home() {
           </Stack>
         </Stack>
       </div>
+      <footer style={{position:"fixed", bottom:"10px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
+        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>© 2025 PdNode. All Rights Reserved.</Typography>
+      </footer>
     </React.Fragment>
   );
 }
