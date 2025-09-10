@@ -64,12 +64,12 @@ export default function Home() {
           <Stack spacing={1.7} direction={"row"}>
             <Stack sx={{justifyItems:"center", alignItems:"center", justifyContent:"center"}}>
               <Tooltip title="Visit Main Website">
-                <IconButton href="https://www.pdnode.com" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><LanguageIcon sx={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
+                <IconButton href="https://www.pdnode.com" target="_blank" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><LanguageIcon sx={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
               </Tooltip>
             </Stack>
             <Stack sx={{justifyItems:"center", alignItems:"center", justifyContent:"center"}}>
               <Tooltip title="Visit our GitHub">
-                <IconButton href="https://github.com/pdnode-team" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><IoLogoGithub style={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
+                <IconButton href="https://github.com/pdnode-team" target="_blank" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><IoLogoGithub style={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
               </Tooltip>
             </Stack>
           </Stack>

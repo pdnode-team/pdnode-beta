@@ -1,6 +1,6 @@
 "use client"; //DO NOT TOUCH THIS OR THE WHOLE PROJECT WILL BE MESSED UP
 
-import "./globals-light.css";
+import "../globals-light.css";
 import * as React from "react";
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
@@ -41,9 +41,9 @@ export default function Home() {
           <div>
             <Stack direction="row" spacing={2.5} sx={{marginTop:"20px", alignItems:"center"}}>
               <Stack sx={{alignItems:"center"}}>
-                <Button href="/" sx={{background:"rgb(119 87 74)", borderRadius:"100px", height:"32px", width:"45px"}}><HomeIcon sx={{color:"#fefbff"}}/></Button>
+                <Button href="/" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><HomeIcon sx={{color:"rgb(108,108,108)"}}/></Button>
                 <Link href="/" sx={{textDecoration:"none"}}>
-                  <Typography sx={{color:"rgb(35 26 22)", fontSize:"0.85rem", fontWeight:"500"}}>Home</Typography>
+                  <Typography sx={{color:"rgb(108 108 108)", fontSize:"0.85rem", fontWeight:"500"}}>Home</Typography>
                 </Link>
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
@@ -53,9 +53,9 @@ export default function Home() {
                 </Link>
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
-                <Button href="/about" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><InfoIcon sx={{color:"rgb(108,108,108)"}}/></Button>
+                <Button href="/about" sx={{background:"rgb(119 87 74)", borderRadius:"100px", height:"32px", width:"45px"}}><InfoIcon sx={{color:"#fefbff"}}/></Button>
                 <Link href="/about" sx={{textDecoration:"none"}}>
-                  <Typography sx={{color:"rgb(108 108 108)", fontSize:"0.85rem", fontWeight:"500"}}>About Us</Typography>
+                  <Typography sx={{color:"rgb(35 26 22)", fontSize:"0.85rem", fontWeight:"500"}}>About Us</Typography>
                 </Link>
               </Stack>
             </Stack>
@@ -64,12 +64,12 @@ export default function Home() {
           <Stack spacing={1.7} direction={"row"}>
             <Stack sx={{justifyItems:"center", alignItems:"center", justifyContent:"center"}}>
               <Tooltip title="Visit Main Website">
-                <IconButton href="https://www.pdnode.com" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><LanguageIcon sx={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
+                <IconButton href="https://www.pdnode.com" target="_blank" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><LanguageIcon sx={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
               </Tooltip>
             </Stack>
             <Stack sx={{justifyItems:"center", alignItems:"center", justifyContent:"center"}}>
               <Tooltip title="Visit our GitHub">
-                <IconButton href="https://github.com/pdnode-team" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><IoLogoGithub style={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
+                <IconButton href="https://github.com/pdnode-team" target="_blank" sx={{background:"none", outline:"#555555FF solid 1px", borderRadius:"100px", width:"3rem", height:"3rem"}}><IoLogoGithub style={{color:"rgb(108,108,108)", fontSize:"1.7rem"}}/></IconButton>
               </Tooltip>
             </Stack>
           </Stack>
