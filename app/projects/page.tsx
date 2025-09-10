@@ -1,6 +1,6 @@
 "use client"; //DO NOT TOUCH THIS OR THE WHOLE PROJECT WILL BE MESSED UP
 
-import "./globals-light.css";
+import "../globals-light.css";
 import * as React from "react";
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
@@ -41,15 +41,15 @@ export default function Home() {
           <div>
             <Stack direction="row" spacing={2.5} sx={{marginTop:"20px", alignItems:"center"}}>
               <Stack sx={{alignItems:"center"}}>
-                <Button href="/" sx={{background:"rgb(119 87 74)", borderRadius:"100px", height:"32px", width:"45px"}}><HomeIcon sx={{color:"#fefbff"}}/></Button>
+                <Button href="/" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><HomeIcon sx={{color:"rgb(108,108,108)"}}/></Button>
                 <Link href="/" sx={{textDecoration:"none"}}>
-                  <Typography sx={{color:"rgb(35 26 22)", fontSize:"0.85rem", fontWeight:"500"}}>Home</Typography>
+                  <Typography sx={{color:"rgb(108,108,108)", fontSize:"0.85rem", fontWeight:"500"}}>Home</Typography>
                 </Link>
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
-                <Button href="/projects" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><AppsRoundedIcon sx={{color:"rgb(108,108,108)"}}/></Button>
+                <Button href="/projects" sx={{background:"rgb(119 87 74)", borderRadius:"100px", height:"32px", width:"45px"}}><AppsRoundedIcon sx={{color:"#fefbff"}}/></Button>
                 <Link href="/projects" sx={{textDecoration:"none"}}>
-                  <Typography sx={{color:"rgb(108,108,108)", fontSize:"0.85rem", fontWeight:"500"}}>Projects</Typography>
+                  <Typography sx={{color:"rgb(35 26 22)", fontSize:"0.85rem", fontWeight:"500"}}>Projects</Typography>
                 </Link>
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
