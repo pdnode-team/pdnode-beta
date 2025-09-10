@@ -81,7 +81,6 @@ body {
   background: var(--md-sys-color-primary-container);
   height: 90px;
   align-content: center;
-
 }
 
 /*
@@ -92,3 +91,9 @@ body {
 }
 */
 
+.home-div {
+  background: rgb(255 181 150);
+  width: 49.3%;
+  height: 50%;
+  border-radius: 24px;
+}

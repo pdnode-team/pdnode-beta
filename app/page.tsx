@@ -75,6 +75,16 @@ export default function Home() {
           </Stack>
         </Stack>
       </div>
+      <div>
+        <Stack direction="row" spacing={1.3} sx={{marginTop:"10px", marginLeft:"10px"}}>
+          <div className="home-div">
+            <Typography variant="h1" lineHeight={1} sx={{fontWeight:"400", color:"#303030", marginLeft:"60px", marginTop:"70px"}}>PdNode<br/>Beta</Typography>
+          </div>
+          <div className="home-div">
+            <Typography variant="h1" sx={{fontWeight:"400"}}>PdNode<br/>Beta</Typography>
+          </div>
+        </Stack>
+      </div>
       <footer style={{position:"fixed", bottom:"10px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
         <Typography sx={{fontSize:"0.88rem", color:"gray"}}>© 2025 PdNode. All Rights Reserved.</Typography>
       </footer>
