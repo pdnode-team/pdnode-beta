@@ -39,7 +39,7 @@ export default function Home() {
             </Button>
           </div>
           <div>
-            <Stack direction="row" spacing={2.5} sx={{marginTop:"20px", alignItems:"center"}}>
+            <Stack direction="row" spacing={"1vw"} sx={{marginTop:"20px", alignItems:"center"}}>
               <Stack sx={{alignItems:"center"}}>
                 <Button href="/" sx={{background:"rgb(119 87 74)", borderRadius:"100px", height:"32px", width:"45px"}}><HomeIcon sx={{color:"#fefbff"}}/></Button>
                 <Link href="/" sx={{textDecoration:"none"}}>
@@ -60,7 +60,7 @@ export default function Home() {
               </Stack>
             </Stack>
           </div>
-          <div style={{width:"1006px"}}></div>
+          <div style={{width:"59.2vw"}}></div>
           <Stack spacing={1.7} direction={"row"}>
             <Stack sx={{justifyItems:"center", alignItems:"center", justifyContent:"center"}}>
               <Tooltip title="Visit Main Website">
