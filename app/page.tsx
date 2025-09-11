@@ -80,7 +80,7 @@ export default function Home() {
           <div className="home-div">
             <Typography variant="h1" lineHeight={1} sx={{fontWeight:"400", color:"#303030", marginLeft:"60px", marginTop:"70px"}}>PdNode<br/>Beta</Typography>
             <Typography variant="h5" lineHeight={1.3} sx={{fontWeight:"400", color:"#303030", marginLeft:"60px", marginTop:"20px"}}>This is a website that lists all beta (In development) or<br/>discontinued projects made by us.</Typography>
-            <Button variant="contained" sx={{borderRadius:"100px", boxShadow:"none"}}>View Projects</Button>
+            <Button variant="contained" sx={{borderRadius:"100px", boxShadow:"none", background:"rgb(74,56,49)"}}>View Projects</Button>
           </div>
           <div className="home-div">
             <Typography variant="h1" sx={{fontWeight:"400"}}>PdNode<br/>Beta</Typography>
