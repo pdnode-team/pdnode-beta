@@ -31,8 +31,8 @@ export default function Home() {
         <link rel="icon" sizes={"128x128"} href="/favicon.ico" />
       </Head>
       <title>PdNode Beta - All our beta projects are here</title>
-      <div>
-        <Stack direction={"row"} spacing={5} className={"navi-bar"}>
+      <div style={{width:"100%"}}>
+        <Stack direction={"row"} spacing={"2.5vw"} className={"navi-bar"}>
           <div>
             <Button href="/" sx={{background:"rgb(142 77 47)", marginLeft:"13px", marginTop:"13px", borderRadius:"16px", height:"63px", width:"200px"}}>
               <Image alt={"PD Node Beta Icon"} src={"/pdnode-beta-icon-dark.png"} width={160} height={160}/>
@@ -80,7 +80,8 @@ export default function Home() {
           <div className="home-div">
             <Typography variant="h1" lineHeight={1} sx={{fontWeight:"400", color:"#303030", marginLeft:"60px", marginTop:"70px"}}>PdNode<br/>Beta</Typography>
             <Typography variant="h5" lineHeight={1.3} sx={{fontWeight:"400", color:"#303030", marginLeft:"60px", marginTop:"20px"}}>This is a website that lists all beta (In development) or<br/>discontinued projects made by us.</Typography>
-            <Button variant="contained" href="/projects" sx={{borderRadius:"100px", boxShadow:"none", background:"rgb(74,56,49)", height:"8.3vh", width:"12vw", fontSize:"1.2rem", textTransform:"none", marginLeft:"60px", marginTop:"25px"}}>View Projects</Button>
+            <Button variant="contained" href="/projects" sx={{borderRadius:"100px", boxShadow:"none", background:"rgb(74,56,49)", height:"8.3vh", width:"12vw", fontSize:"2.1vh", textTransform:"none", marginLeft:"60px", marginTop:"25px"}}>View Projects</Button>
+            <div style={{height:"70px"}}/>
           </div>
           <div className="home-div">
             <Typography variant="h1" sx={{fontWeight:"400"}}>PdNode<br/>Beta</Typography>
