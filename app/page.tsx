@@ -83,13 +83,13 @@ export default function Home() {
             <Button variant="contained" href="/projects" sx={{borderRadius:"100px", boxShadow:"none", background:"rgb(74,56,49)", height:"8.3vh", width:"12vw", fontSize:"2.1vh", textTransform:"none", marginLeft:"60px", marginTop:"25px"}}>View Projects</Button>
             <div style={{height:"70px"}}/>
           </div>
-          <div className="home-div" style={{backgroundImage:"url(/public/placeholder.png)"}}>
-            <a>1</a>
+          <div className="home-div" style={{backgroundImage:"url(/placeholder.png)"}}>
+            <Image alt="PD Node Beta Introduction Image" src={"/placeholder.png"} width={512} height={512}></Image>
           </div>
         </Stack>
       </div>
       <footer style={{position:"fixed", bottom:"10px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
-        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>v44 | © 2025 PdNode. All Rights Reserved. · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Terms</Link> · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Privacy</Link></Typography>
+        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>© 2025 PdNode. All Rights Reserved. · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Terms</Link> · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Privacy</Link></Typography>
       </footer>
     </React.Fragment>
   );
