@@ -47,13 +47,33 @@ export default function Home() {
                 </Link>
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
-                <Button href="/projects" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><AppsRoundedIcon sx={{color:"rgb(108,108,108)"}}/></Button>
+                <Button href="/projects"
+                        sx={{background:"none",
+                          borderRadius:"100px",
+                          height:"32px",
+                          width:"45px",
+                          color:"rgb(108,108,108)",
+                          '&:hover': {
+                            background: "rgb(170,155,150)",
+                            color: "rgb(35 26 22)",
+                          },
+                          transition: 'background-color 0.3s ease, color 0.3s ease'
+                }}>
+                  <AppsRoundedIcon sx={{}}/>
+                </Button>
                 <Link href="/projects" sx={{textDecoration:"none"}}>
                   <Typography sx={{color:"rgb(108,108,108)", fontSize:"0.85rem", fontWeight:"500"}}>Projects</Typography>
                 </Link>
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
-                <Button href="/about" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><InfoIcon sx={{color:"rgb(108,108,108)"}}/></Button>
+                <Button href="/about"
+                        sx={{background:"none",
+                          borderRadius:"100px",
+                          height:"32px",
+                          width:"45px"
+                }}>
+                  <InfoIcon sx={{color:"rgb(108,108,108)"}}/>
+                </Button>
                 <Link href="/about" sx={{textDecoration:"none"}}>
                   <Typography sx={{color:"rgb(108 108 108)", fontSize:"0.85rem", fontWeight:"500"}}>About Us</Typography>
                 </Link>
