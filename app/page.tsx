@@ -59,7 +59,7 @@ export default function Home() {
                           },
                           transition: 'background-color 0.3s ease, color 0.3s ease'
                 }}>
-                  <AppsRoundedIcon sx={{}}/>
+                  <AppsRoundedIcon/>
                 </Button>
                 <Link href="/projects" sx={{textDecoration:"none"}}>
                   <Typography sx={{color:"rgb(108,108,108)", fontSize:"0.85rem", fontWeight:"500"}}>Projects</Typography>
@@ -70,9 +70,15 @@ export default function Home() {
                         sx={{background:"none",
                           borderRadius:"100px",
                           height:"32px",
-                          width:"45px"
+                          width:"45px",
+                          color:"rgb(108,108,108)",
+                          '&:hover': {
+                            background: "rgb(170,155,150)",
+                            color: "rgb(35 26 22)",
+                          },
+                          transition: 'background-color 0.3s ease, color 0.3s ease'
                 }}>
-                  <InfoIcon sx={{color:"rgb(108,108,108)"}}/>
+                  <InfoIcon/>
                 </Button>
                 <Link href="/about" sx={{textDecoration:"none"}}>
                   <Typography sx={{color:"rgb(108 108 108)", fontSize:"0.85rem", fontWeight:"500"}}>About Us</Typography>
