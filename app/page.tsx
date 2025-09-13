@@ -110,7 +110,7 @@ export default function Home() {
             <div style={{height:"70px"}}/>
           </div>
           <div className="home-div" style={{justifyItems:"center", alignItems:"center"}}>
-            <Image alt="PD Node Beta Introduction Image" src={"/placeholder.png"} width={512} height={512}></Image>
+            <Image alt="PD Node Beta Introduction Image" src={"/intro-light.png"} width={512} height={512}></Image>
           </div>
         </Stack>
       </div>
