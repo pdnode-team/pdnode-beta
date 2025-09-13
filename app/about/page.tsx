@@ -41,13 +41,39 @@ export default function Home() {
           <div>
             <Stack direction="row" spacing={2.5} sx={{marginTop:"20px", alignItems:"center"}}>
               <Stack sx={{alignItems:"center"}}>
-                <Button href="/" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><HomeIcon sx={{color:"rgb(108,108,108)"}}/></Button>
+                <Button href="/"
+                        sx={{background:"none",
+                          borderRadius:"100px",
+                          height:"32px",
+                          width:"45px",
+                          color:"rgb(108,108,108)",
+                          '&:hover': {
+                            background: "rgb(170,155,150)",
+                            color: "rgb(35 26 22)",
+                          },
+                          transition: 'background-color 0.3s ease, color 0.3s ease'
+                }}>
+                  <HomeIcon/>
+                </Button>
                 <Link href="/" sx={{textDecoration:"none"}}>
                   <Typography sx={{color:"rgb(108 108 108)", fontSize:"0.85rem", fontWeight:"500"}}>Home</Typography>
                 </Link>
               </Stack>
               <Stack sx={{alignItems:"center", justifyItems:"center"}}>
-                <Button href="/projects" sx={{background:"none", borderRadius:"100px", height:"32px", width:"45px"}}><AppsRoundedIcon sx={{color:"rgb(108,108,108)"}}/></Button>
+                <Button href="/projects"
+                        sx={{background:"none",
+                          borderRadius:"100px",
+                          height:"32px",
+                          width:"45px",
+                          color:"rgb(108,108,108)",
+                          '&:hover': {
+                            background: "rgb(170,155,150)",
+                            color: "rgb(35 26 22)",
+                          },
+                          transition: 'background-color 0.3s ease, color 0.3s ease'
+                }}>
+                  <AppsRoundedIcon/>
+                </Button>
                 <Link href="/projects" sx={{textDecoration:"none"}}>
                   <Typography sx={{color:"rgb(108,108,108)", fontSize:"0.85rem", fontWeight:"500"}}>Projects</Typography>
                 </Link>
@@ -76,7 +102,7 @@ export default function Home() {
         </Stack>
       </div>
       <footer style={{position:"fixed", bottom:"10px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
-        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>v49 | © 2025 PdNode. All Rights Reserved.</Typography>
+        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>v53 | © 2025 PdNode. All Rights Reserved.</Typography>
       </footer>
     </React.Fragment>
   );
