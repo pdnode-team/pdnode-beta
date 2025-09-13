@@ -83,7 +83,7 @@ export default function Home() {
             <Button variant="contained" href="/projects" sx={{borderRadius:"100px", boxShadow:"none", background:"rgb(74,56,49)", height:"8.3vh", width:"12vw", fontSize:"2.1vh", textTransform:"none", marginLeft:"60px", marginTop:"25px"}}>View Projects</Button>
             <div style={{height:"70px"}}/>
           </div>
-          <div className="home-div" style={{backgroundImage:"url(/placeholder.png)"}}>
+          <div className="home-div" style={{justifyItems:"center", alignItems:"center"}}>
             <Image alt="PD Node Beta Introduction Image" src={"/placeholder.png"} width={512} height={512}></Image>
           </div>
         </Stack>
