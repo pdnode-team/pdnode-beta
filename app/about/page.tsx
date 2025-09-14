@@ -103,15 +103,14 @@ export default function Home() {
       </div>
       <div>
         <div className="about-div-long">
-          <Typography variant={"h2"} sx={{color:"#303030", fontWeight:"400"}}>About Us</Typography>
-          <Typography variant={"h6"} sx={{color:"#303030", fontWeight:"400"}}>Pdnode is a group of people with the same interests. Founded on 2024-07-10.</Typography>
+          <Typography variant={"h2"} sx={{color:"#303030", fontWeight:"400", marginLeft:"50px"}}>About Us</Typography>
+          <Typography variant={"h6"} sx={{color:"#303030", fontWeight:"400", marginLeft:"50px"}}>Pdnode is a group of people with the same interests. Founded on 2024-07-10.</Typography>
         </div>
       </div>
       <footer style={{position:"fixed", bottom:"10px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
-        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>v57 | © 2025 PdNode. All Rights Reserved. · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Terms</Link> · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Privacy</Link></Typography>
+        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>v60 | © 2025 PdNode. All Rights Reserved. · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Terms</Link> · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Privacy</Link></Typography>
       </footer>
     </React.Fragment>
   );
 }
 
-{/*unselected button color: rgb(133 115 108)*/}

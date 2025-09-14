@@ -99,8 +99,10 @@ body {
 }
 
 .about-div-long {
+  margin-top: 10px;
+  margin-left: 10px;
   background: rgb(255 181 150);
-  width: 95%;
+  width: 98.7%;
   height: 50%;
   border-radius: 24px;
 }

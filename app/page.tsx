@@ -121,4 +121,3 @@ export default function Home() {
   );
 }
 
-{/*unselected button color: rgb(133 115 108)*/}
