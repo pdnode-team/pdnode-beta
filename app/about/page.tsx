@@ -107,15 +107,15 @@ export default function Home() {
           <Typography variant={"h6"} sx={{color:"#303030", fontWeight:"400", marginLeft:"50px"}}>Pdnode is a group of people with the same interests. Founded on 2024-07-10.</Typography>
           <div style={{height:"60px"}}/>
         </div>
-        <Stack direction={"row"} spacing={2}>
+        <Stack direction={"row"} spacing={2} sx={{marginTop:"10px"}}>
           <div className="about-div-member">
-
+            <Typography>BretRen</Typography>
           </div>
           <div className="about-div-member">
-
+            <Typography>XxdMkbMark</Typography>
           </div>
           <div className="about-div-member">
-
+            <Typography>dianwan-123</Typography>
           </div>
         </Stack>
       </div>
