@@ -108,19 +108,19 @@ export default function Home() {
           <div style={{height:"60px"}}/>
         </div>
         <Stack direction={"row"} spacing={2}>
-          <div>
+          <div className="about-div-member">
 
           </div>
-          <div>
+          <div className="about-div-member">
 
           </div>
-          <div>
+          <div className="about-div-member">
 
           </div>
         </Stack>
       </div>
       <footer style={{position:"fixed", bottom:"10px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
-        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>v62 | © 2025 PdNode. All Rights Reserved. · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Terms</Link> · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Privacy</Link></Typography>
+        <Typography sx={{fontSize:"0.88rem", color:"gray"}}>v63 | © 2025 PdNode. All Rights Reserved. · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Terms</Link> · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Privacy</Link></Typography>
       </footer>
     </React.Fragment>
   );
