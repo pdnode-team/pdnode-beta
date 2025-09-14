@@ -102,8 +102,10 @@ export default function Home() {
         </Stack>
       </div>
       <div>
-        <Typography variant={"h2"}>About Us</Typography>
-        <Typography>Pdnode is a group of people with the same interests. Founded on 2024-07-10.</Typography>
+        <div className="about-div-long">
+          <Typography variant={"h2"} sx={{color:"#303030", fontWeight:"400"}}>About Us</Typography>
+          <Typography variant={"h6"} sx={{color:"#303030", fontWeight:"400"}}>Pdnode is a group of people with the same interests. Founded on 2024-07-10.</Typography>
+        </div>
       </div>
       <footer style={{position:"fixed", bottom:"10px", width:"100%", display:"flex", alignItems:"center", justifyContent:"center"}}>
         <Typography sx={{fontSize:"0.88rem", color:"gray"}}>v57 | © 2025 PdNode. All Rights Reserved. · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Terms</Link> · <Link href="https://forum.pdnode.com/d/5-pdnode-terms-of-service">Privacy</Link></Typography>
