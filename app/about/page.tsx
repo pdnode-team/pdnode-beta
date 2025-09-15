@@ -109,13 +109,13 @@ export default function Home() {
         </div>
         <Stack direction={"row"} spacing={1} sx={{marginTop:"10px", marginLeft:"10px", marginRight:"10px"}}>
           <div className="about-div-member">
-            <Typography>BretRen</Typography>
+            <Typography variant={"h4"} className="about-text-member" sx={{marginLeft:"40px"}}>BretRen</Typography>
           </div>
           <div className="about-div-member">
-            <Typography>XxdMkbMark</Typography>
+            <Typography variant={"h4"} className="about-text-member" sx={{marginLeft:"40px"}}>XxdMkb_Mark</Typography>
           </div>
           <div className="about-div-member">
-            <Typography>dianwan-123</Typography>
+            <Typography variant={"h4"} className="about-text-member" sx={{marginLeft:"40px"}}>DwYYDS</Typography>
           </div>
         </Stack>
       </div>
